@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:name=".UseDoceTangerinaEstoque"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/splash_screen_image_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UseDoceTangerinaEstoque"
+        tools:targetApi="31" >
+        <activity
+            android:name=".presentation.ui.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.ui.AddItemActivity" />
+        <activity android:name=".presentation.ui.BaseDrawerActivity" />
+        <activity android:name=".presentation.ui.CategoryActivity" />
+        <activity android:name=".presentation.ui.HomeActivity" />
+        <activity android:name=".presentation.ui.ItemDetailActivity" />
+        <activity android:name=".presentation.ui.LoginRegisterActivity" />
+        <activity android:name=".presentation.ui.SizeActivity" />
+        <activity android:name=".presentation.ui.StockActivity" />
+        <activity android:name=".presentation.ui.UserEditActivity" />
+        <activity android:name=".presentation.ui.UserViewActivity" />
+    </application>
+
+</manifest>
