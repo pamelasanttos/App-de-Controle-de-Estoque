@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/rounded_box"
+        android:clipToOutline="true"
+        android:elevation="6dp"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/produto_exemplo" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        android:text="Biquíni"
+        android:textColor="#515151"
+        android:textStyle="bold" />
+</LinearLayout>
