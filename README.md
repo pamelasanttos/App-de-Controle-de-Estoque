@@ -8,7 +8,7 @@ Este aplicativo permite o controle de entradas, saídas, categorias dos produtos
 *  Relatórios de movimentações por período;
 *  Alerta de produtos com baixo estoque
 *  Interface intuitiva;
-*  Autenticação de usuários.
+  
 
 #Tecnologias Utilizadas
 * Primeiramente muita fé
